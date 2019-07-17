@@ -1,21 +1,27 @@
 .MainContainer {
-    padding: 10px;
     border-style: solid;
     border: black;
     justify-content: center;
+    height: 30rem;
+    font-size: 3rem;
 }
 
 .Content {
     display: flex;
     border-style: solid;
     border-color: red;
-    justify-content: space-around;
+    height: 100rem;
+    
 }
 
 .Left {
+    display: block;
     border-style: solid;
     border-color:green;
-    display: flex;
+    flex-grow: 1;
+    font-size: 3rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
     
 }
 
@@ -23,12 +29,21 @@
     display:block;
     border-style: solid;
     border-color: blue;
+    flex-grow: 2;
+    font-size: 3rem;
 }
 
 .Right {
     display:block;
     border-style: solid;
     border-color: yellow;
+    flex-grow: 1;
+    font-size: 3rem;
+}
+
+.small {
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 nav {
@@ -37,6 +52,11 @@ nav {
     justify-content: space-around;
 }
 
+p {
+    padding: 0.2rem;
+    font-size: 1rem;
+
+}
 
 
 
