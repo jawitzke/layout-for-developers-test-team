@@ -1,0 +1,44 @@
+.MainContainer {
+    padding: 10px;
+    border-style: solid;
+    border: black;
+    justify-content: center;
+}
+
+.Content {
+    display: flex;
+    border-style: solid;
+    border-color: red;
+    justify-content: space-around;
+}
+
+.Left {
+    border-style: solid;
+    border-color:green;
+    display: flex;
+    
+}
+
+.Center {
+    display:block;
+    border-style: solid;
+    border-color: blue;
+}
+
+.Right {
+    display:block;
+    border-style: solid;
+    border-color: yellow;
+}
+
+nav {
+    display: flex;
+    border-style: solid;
+    justify-content: space-around;
+}
+
+
+
+
+
+
