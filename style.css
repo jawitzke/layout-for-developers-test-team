@@ -1,9 +1,10 @@
 .MainContainer {
     border-style: solid;
     border: black;
-    justify-content: center;
+    justify-content: left;
     height: 30rem;
     font-size: 3rem;
+    background-color:olive;
 }
 
 .Content {
@@ -22,6 +23,7 @@
     font-size: 3rem;
     flex-direction: column;
     flex-wrap: nowrap;
+    background-color: lightgray;
     
 }
 
@@ -31,6 +33,7 @@
     border-color: blue;
     flex-grow: 2;
     font-size: 3rem;
+    background-color: lightgray;
 }
 
 .Right {
@@ -39,12 +42,55 @@
     border-color: yellow;
     flex-grow: 1;
     font-size: 3rem;
+    background-color: lightgray;
 }
 
 .small {
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
 }
+
+.first {
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    align-content: center;
+}
+
+.image {
+    display:  flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.image img {
+    padding: 2rem;
+    display: flex;
+    width: 4rem;
+}
+
+.first img {
+    width: 10rem;
+    height: 8rem;
+}
+
+.middle img {
+    width:20rem;
+    height: 17rem;
+    padding: 1rem;
+}
+
+.middle {
+    border-style: solid;
+    border-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+}
+
 
 nav {
     display: flex;
